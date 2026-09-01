@@ -1,0 +1,93 @@
+Using src/app as the root directory for Expo Router.
+React Compiler enabled
+Starting Metro Bundler
+
+Static rendering is enabled. Learn more: https://docs.expo.dev/router/web/static-rendering/
+Web Bundling failed 1475ms node_modules\expo-router\entry.js (1 module)
+SyntaxError: node_modules\expo-router\entry.js: Cannot find module 'baseline-browser-mapping'
+Require stack:
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\browserslist\index.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\helper-compilation-targets\lib\index.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\resolve-targets.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\config-descriptors.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\item.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\full.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\index.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\transform-file.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\files\module-types.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\files\configuration.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\files\index.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\index.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@expo\metro-config\build\transform-worker\metro-transform-worker.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@expo\metro-config\build\transform-worker\transform-worker.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@expo\metro\node_modules\metro\src\DeltaBundler\Worker.flow.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@expo\metro\node_modules\metro\src\DeltaBundler\Worker.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\jest-worker\build\workers\threadChild.js
+Error: Cannot find module 'baseline-browser-mapping'
+Require stack:
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\browserslist\index.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\helper-compilation-targets\lib\index.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\resolve-targets.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\config-descriptors.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\item.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\full.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\index.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\transform-file.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\files\module-types.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\files\configuration.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\files\index.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\index.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@expo\metro-config\build\transform-worker\metro-transform-worker.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@expo\metro-config\build\transform-worker\transform-worker.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@expo\metro\node_modules\metro\src\DeltaBundler\Worker.flow.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@expo\metro\node_modules\metro\src\DeltaBundler\Worker.js
+- C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\jest-worker\build\workers\threadChild.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1569:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1123:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1147:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1174:12)
+    at Module._load (node:internal/modules/cjs/loader:1346:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1679:12)
+    at require (node:internal/modules/helpers:196:16)
+    at Object.<anonymous> (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\browserslist\index.js:1:11)
+    at Module._compile (node:internal/modules/cjs/loader:1934:14)
+    at Object..js (node:internal/modules/cjs/loader:2074:10)
+    at Module.load (node:internal/modules/cjs/loader:1656:32)
+    at Module._load (node:internal/modules/cjs/loader:1448:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1679:12)
+    at require (node:internal/modules/helpers:196:16)
+    at Object.<anonymous> (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\helper-compilation-targets\lib\index.js:44:21)
+    at Module._compile (node:internal/modules/cjs/loader:1934:14)
+    at Object..js (node:internal/modules/cjs/loader:2074:10)
+    at Module.load (node:internal/modules/cjs/loader:1656:32)
+    at Module._load (node:internal/modules/cjs/loader:1448:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1679:12)
+    at require (node:internal/modules/helpers:196:16)
+    at _helperCompilationTargets (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\resolve-targets.js:16:16)
+    at resolveTargets (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\resolve-targets.js:52:14)
+    at loadPrivatePartialConfig (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\partial.js:81:49)
+    at loadPrivatePartialConfig.next (<anonymous>)
+    at loadFullConfig (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\config\full.js:36:46)
+    at loadFullConfig.next (<anonymous>)
+    at transform (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\transform.js:20:44)
+    at transform.next (<anonymous>)
+    at evaluateSync (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\gensync\index.js:251:28)
+    at sync (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\gensync\index.js:89:14)
+    at stopHiding - secret - don't use this - v1 (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\errors\rewrite-stack-trace.js:47:12)
+    at Object.transformSync (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@babel\core\lib\transform.js:40:76)
+    at parseWithBabel (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@expo\metro-config\build\transformSync.js:75:18)
+    at transformSync (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@expo\metro-config\build\transformSync.js:64:12)
+    at Object.transform (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@expo\metro-config\build\babel-transformer.js:146:58)
+    at transformJSWithBabel (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@expo\metro-config\build\transform-worker\metro-transform-worker.js:495:47)
+    at Object.transform (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@expo\metro-config\build\transform-worker\metro-transform-worker.js:614:12)
+    at Object.transform (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@expo\metro-config\build\transform-worker\transform-worker.js:179:19)
+    at transformFile (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@expo\metro\node_modules\metro\src\DeltaBundler\Worker.flow.js:67:36)
+    at Object.transform (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\@expo\metro\node_modules\metro\src\DeltaBundler\Worker.flow.js:42:10)
+    at execFunction (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\jest-worker\build\workers\threadChild.js:167:17)
+    at execHelper (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\jest-worker\build\workers\threadChild.js:155:5)
+    at execMethod (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\jest-worker\build\workers\threadChild.js:158:5)
+    at MessagePort.messageListener (C:\Users\USER\Documents\Coding Project\techcrush\react-native\task\node_modules\jest-worker\build\workers\threadChild.js:52:7)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:856:20)
