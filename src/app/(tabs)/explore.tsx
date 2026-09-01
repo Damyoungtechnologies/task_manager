@@ -119,15 +119,15 @@ function BigStat({ label, value, color }: { label: string; value: number | strin
 }
 
 const styles = StyleSheet.create({
-  screen: { flex:  ​1 },
+  screen: { flex: 1 },
   content: { paddingHorizontal: Spacing.four, gap: Spacing.three },
   statGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: Spacing.two, marginTop: Spacing.two },
-  bigStat: { flexBasis: '46%', flexGrow:  ​1, alignItems: 'center', paddingVertical: Spacing.three, borderRadius: Spacing.three },
-  bigStatValue: { fontSize:  ​32, lineHeight:  ​​36 },
-  bigStatLabel: { fontSize:  ​12, lineHeight:  ​16 },
+  bigStat: { flexBasis: '46%', flexGrow: 1, alignItems: 'center', paddingVertical: Spacing.three, borderRadius: Spacing.three },
+  bigStatValue: { fontSize: 32, lineHeight: 36 },
+  bigStatLabel: { fontSize: 12, lineHeight: 16 },
   section: { gap: Spacing.two, padding: Spacing.three, borderRadius: Spacing.three },
   breakGroup: { gap: Spacing.one },
   breakRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: Spacing.two },
-  progressTrack: { height:  ​6, borderRadius: ​3, overflow: 'hidden' },
+  progressTrack: { height: 6, borderRadius: 3, overflow: 'hidden' },
   clearButton: { alignItems: 'center', paddingVertical: Spacing.two, borderRadius: Spacing.three },
 });

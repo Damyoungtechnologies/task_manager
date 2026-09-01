@@ -172,8 +172,8 @@ function Field({ label, children }: { label: string; children: ReactNode }) {
 
 const styles = StyleSheet.create({
   overlay: {
-    flex:  ​1,
-    backgroundColor: 'rgba(0,  ​0,  ​0,  ​0.5)',
+    flex:  1,
+    backgroundColor: 'rgba(0,  0,  0,  0.5)',
     justifyContent: 'center',
     padding: Spacing.four,
   },
@@ -192,14 +192,14 @@ const styles = StyleSheet.create({
     gap: Spacing.one,
   },
   input: {
-    borderWidth:  ​1,
+    borderWidth:  1,
     borderRadius: Spacing.two,
     paddingHorizontal: Spacing.three,
     paddingVertical: Spacing.two,
     fontSize: 16,
   },
   textArea: {
-    minHeight:  ​100,
+    minHeight:  100,
     textAlignVertical: 'top',
   },
   priorityRow: {
@@ -209,7 +209,7 @@ const styles = StyleSheet.create({
   },
   priorityChip: {
     paddingHorizontal: Spacing.three,
-    paddingVertical: Spacing.one +  ​2,
+    paddingVertical: Spacing.one +  2,
     borderRadius: Spacing.five,
   },
   categoryWrap: {

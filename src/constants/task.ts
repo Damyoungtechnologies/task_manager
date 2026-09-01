@@ -61,7 +61,7 @@ export function formatDate(date: string): string {
 }
 
 export function todayISO(): string {
-  return new Date().toISOString().slice(0,  ​10);
+  return new Date().toISOString().slice(0,  10);
 }
 
 export function isOverdue(task: Task): boolean {
