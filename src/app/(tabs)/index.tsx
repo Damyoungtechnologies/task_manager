@@ -75,7 +75,7 @@ export default function TasksScreen() {
         )}
         ListHeaderComponent={
           <View>
-            <View style={[styles.header, { paddingTop: insets.top + Spacing.four }]}>
+            <View style={[styles.header, { paddingTop: insets.top + Spacing.four + 40 }]}>
               <ThemedText type="subtitle">My Tasks</ThemedText>
               <ThemedText type="small" themeColor="textSecondary">
                 {stats.pending} pending and {stats.completed} completed
@@ -152,6 +152,6 @@ const styles = StyleSheet.create({
   listContent: { flexGrow: 1, paddingTop: Spacing.two },
   emptyState: { alignItems: 'center', justifyContent: 'center', paddingVertical: Spacing.six, gap: Spacing.one },
   emptyHint: { textAlign: 'center', paddingHorizontal: Spacing.four },
-  fab: { position: 'absolute', right: Spacing.four, width: 56, height: 56, borderRadius: 28, alignItems: 'center', justifyContent: 'center', elevation: 5, shadowColor: '#000', shadowOpacity: 0.2, shadowRadius: 6, shadowOffset: { width: 0, height: 2 } },
+  fab: { position: 'absolute', right: Spacing.four, width: 56, height: 56, borderRadius: 28, alignItems: 'center', justifyContent: 'center', elevation: 5, boxShadow: '0px 2px 6px rgba(0, 0, 0, 0.2)' },
   fabIcon: { color: '#ffffff', fontSize: 28, lineHeight: 32 },
 });
