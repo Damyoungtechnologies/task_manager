@@ -127,16 +127,16 @@ function DetailRow({ label, children }: { label: string; children: ReactNode }) 
 }
 
 const styles = StyleSheet.create({
-  screen: { flex:  ​1 },
-  centered: { flex:  ​1, alignItems: 'center', justifyContent: 'center', gap: Spacing.two },
+  screen: { flex: 1 },
+  centered: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: Spacing.two },
   content: { padding: Spacing.four, gap: Spacing.three },
   titleRow: { flexDirection: 'row', alignItems: 'center', gap: Spacing.two, flexWrap: 'wrap' },
-  title: { flex:  ​1 },
+  title: { flex: 1 },
   statusBadge: { paddingHorizontal: Spacing.three, paddingVertical: Spacing.one, borderRadius: Spacing.five },
   card: { gap: Spacing.two, padding: Spacing.three, borderRadius: Spacing.three },
   detailRow: { flexDirection: 'row', justifyContent: 'space-between', gap: Spacing.two },
-  detailLabel: { flexShrink:  ​0 },
-  detailValue: { flexShrink:  ​1, alignItems: 'flex-end' },
+  detailLabel: { flexShrink: 0 },
+  detailValue: { flexShrink: 1, alignItems: 'flex-end' },
   actions: { gap: Spacing.two },
   button: { alignItems: 'center', paddingVertical: Spacing.two, borderRadius: Spacing.three },
 });
